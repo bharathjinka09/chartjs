@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chart JS</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- single canvas node to render the chart -->
-      <canvas
-        id="myChart"
-        width="700"
-        height="700"
-        aria-label="chart"
-        role="img"
-      ></canvas>
-    </div>
-    <script src="js/chart.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive chart JS</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="chart-container">
+    <canvas id="chart"></canvas>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
